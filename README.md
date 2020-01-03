@@ -22,7 +22,7 @@ Sample of K-means Clustering
 
 3. 클러스터의 중심점을 재계산
 
-4. 각 데이터 오브젝트의 소속 클러스터가 바뀌지 않을 때 까지 2, 3 과정을 반복한다.
+4. 각 데이터 오브젝트의 소속 클러스터가 바뀌지 않을 때 까지 2, 3 과정을 반복
 
 ## 예시
 
@@ -35,8 +35,15 @@ X = iris.data[:, :2]
 y = iris.target
 ```
 
-- Show scatter plot
+- Show scatter plot of data
+
+<p align=center>
+  <img width="35%" src="https://github.com/Xenia101/K-means-Clustering/blob/master/img/kmeans%20graph.PNG">
+</p>
+                        
 ```python
 plt.scatter(X[:,0], X[:,1], c=y)
 plt.show()
 ```
+
+- 
