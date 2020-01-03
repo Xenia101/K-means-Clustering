@@ -24,4 +24,19 @@ Sample of K-means Clustering
 
 4. 각 데이터 오브젝트의 소속 클러스터가 바뀌지 않을 때 까지 2, 3 과정을 반복한다.
 
-## 
+## 예시
+
+- Load the Data
+
+```python
+iris = datasets.load_iris()
+
+X = iris.data[:, :2]
+y = iris.target
+```
+
+- Show scatter plot
+```python
+plt.scatter(X[:,0], X[:,1], c=y)
+plt.show()
+```
