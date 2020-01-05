@@ -69,6 +69,6 @@ kmeams.cluster_centers_ # centers of clustering
 new_y = kmeams.labels_
 
 plt.scatter(X[:, 0], X[:, 1], c=new_y)
-plt.show()
+plt.show() # A Three(Turquoise, Yellow, Purple) clusters
 ```
 
