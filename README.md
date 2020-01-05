@@ -52,7 +52,7 @@ plt.show()
 kmeams = KMeans(n_clusters = 3, n_jobs = 4, random_state=21) # Three color(Kinds) of point / n_clusters = 3
 kmeams.fit(X)
 
-kmeams.cluster_centers_ # centers
+kmeams.cluster_centers_ # centers of clustering
 
 [[5.77358491 2.69245283]
 [5.006      3.418    ]
