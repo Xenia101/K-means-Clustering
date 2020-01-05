@@ -70,5 +70,5 @@ new_y = kmeams.labels_
 
 plt.scatter(X[:, 0], X[:, 1], c=new_y)
 plt.show()
-```python
+```
 
