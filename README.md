@@ -46,4 +46,20 @@ plt.scatter(X[:,0], X[:,1], c=y)
 plt.show()
 ```
 
-- 
+- Do Kmeans
+
+```python
+kmeams = KMeans(n_clusters = 3, n_jobs = 4, random_state=21) # Three color(Kinds) of point / n_clusters = 3
+kmeams.fit(X)
+
+kmeams.cluster_centers_ # centers
+
+[[5.77358491 2.69245283]
+[5.006      3.418    ]
+[6.81276596 3.07446809]]
+```
+
+- Show new scatter plot of data
+
+
+
