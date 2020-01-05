@@ -61,5 +61,14 @@ kmeams.cluster_centers_ # centers of clustering
 
 - Show new scatter plot of data
 
+<p align=center>
+  <img width="35%" src="https://github.com/Xenia101/K-means-Clustering/blob/master/img/new%20graph.PNG?raw=true">
+</p>
 
+```python
+new_y = kmeams.labels_
+
+plt.scatter(X[:, 0], X[:, 1], c=new_y)
+plt.show()
+```python
 
