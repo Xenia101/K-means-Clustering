@@ -24,7 +24,7 @@ Sample of K-means Clustering
 
 4. 각 데이터 오브젝트의 소속 클러스터가 바뀌지 않을 때 까지 2, 3 과정을 반복
 
-## EXAMPLE
+## Example
 
 - Load the Data
 
