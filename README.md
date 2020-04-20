@@ -35,7 +35,7 @@ X = iris.data[:, :2]
 y = iris.target
 ```
 
-- Show scatter plot of data
+- Show a scatter plot of data
 
 <p align=center>
   <img width="35%" src="https://github.com/Xenia101/K-means-Clustering/blob/master/img/kmeans%20graph.PNG">
@@ -46,7 +46,7 @@ plt.scatter(X[:,0], X[:,1], c=y)
 plt.show()
 ```
 
-- Do Kmeans
+- Do K-means
 
 ```python
 kmeams = KMeans(n_clusters = 3, n_jobs = 4, random_state=21) # Three color(Kinds) of point / n_clusters = 3
@@ -59,7 +59,7 @@ kmeams.cluster_centers_ # centers of clustering
 [6.81276596 3.07446809]]
 ```
 
-- Show new scatter plot of data
+- Show a new scatter plot of data
 
 <p align=center>
   <img width="35%" src="https://github.com/Xenia101/K-means-Clustering/blob/master/img/new%20graph.PNG?raw=true">
